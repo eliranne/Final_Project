@@ -51,5 +51,16 @@
   }
   %>
   
+  		<br>
+		<br>
+		<br><strong>&#10148; Current Date & Time is:</strong> <%=new Date() %><br>
+		<br>
+		<br>
+		<div>
+		<br><h4 style="text-align:center;"><u>Created by:</u></h4>
+		<h4 style="text-align:center;"> <%="Eliran Neeman" %></h4>
+		<h4 style="text-align:center;"> <%="Noam Keisy" %></h4>
+		<br>
+  
 </body>
 </html>
