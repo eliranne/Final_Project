@@ -3,7 +3,9 @@
   <title>Echoing HTML Request Parameters</title>
 </head>
 <body>
-  <h3>Choose which days you want to be on vacation:</h3>
+<br>
+<br>
+  <h2>Choose which days you want to be on vacation:</h3>
   <form method="get">
     <input type="checkbox" name="day" value="Sunday">Sunday
     <input type="checkbox" name="day" value="Monday">Monday
@@ -20,7 +22,10 @@
     <input type="text" name="last_name" />	
   <h3>Enter your age:</h3>
    <input type="text" name="age" />
-    <input type="submit" value="Continue">
+   <br>
+   <br>
+   <br>
+    <input type="submit" value="Send request">
   </form>
  
   <%
@@ -46,11 +51,20 @@
   
   <h3>Your request send! Thanks</h3>
     </ul>
-    <a href="<%= request.getRequestURI() %>">Click here for send new request</a>
+    <a  href="<%= request.getRequestURI() %>" >Click here for send new request</a>
   <%
   }
   %>
   
+
+
+		<div>
+		<br><h3 style="text-align:center;"><u>Created by:</u></h3>
+		<h4 style="text-align:center;"> <%="Eliran Neeman" %></h4>
+		<h4 style="text-align:center;"> <%="Noam Keisy" %></h4>
+
+		<h4></h4>
+		</div>
 
   
 </body>
